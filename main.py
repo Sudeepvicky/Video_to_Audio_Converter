@@ -5,7 +5,7 @@ from moviepy.editor import *
 from threading import *
 
 mw = Tk()
-mw.title('Video to audio Converter') 
+mw.title('Video to audio Converter')
 mw.iconbitmap('assets/icon2.ico')
 
 filename = ''
@@ -55,4 +55,3 @@ status_lbl = Label(mw, text='', font=('', 14), fg='green')
 status_lbl.grid(row=2, column=0, pady=(10, 20), padx=20, columnspan=2, sticky=W)
 
 mw.mainloop()
-tkinter
